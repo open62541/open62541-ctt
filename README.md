@@ -6,8 +6,13 @@ The following CTT projects are tracked here:
 
 - open62541 master: Configuration for the conformance units that are supported on the master branch
 - open62541 embedded: Configuration for the Embedded UA Server Profile (work in progress)
-- ver_1.3.441.385: Configuration for newer version of CTT
-- public_beta_1.3.341.389: New bug fixed version of CTT. Click [here](https://opcfoundation.org/developer-tools/certification-test-tools/opc-ua-compliance-test-tool-uactt/) to download.
+- open62541 certify: Configuration that shall be used for Certification of open62541 stack (CTT v1.3.341.389 public beta). The selected profiles and facets are:
+	1. Micro Embedded Device Server
+	2. Method Server Facet
+	3. Security Policy
+		- Basic128Rsa15
+		- Basic256
+		- Basic256Sha256
 
 ## Attention!
 Only upload the open62541.ctt.xml and open62541.selection.xml files.
