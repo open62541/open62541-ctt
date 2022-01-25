@@ -1,0 +1,177 @@
+
+<UaCttResults xsi:noNamespaceSchemaLocation="uacttresults.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ResultNode name="Debug Run1" timestamp="2022-01-18 22:14:18.931" status="" testresult="0" description="">
+        <ResultNode name="beforeTest.js" timestamp="2022-01-18 22:14:18.936" status="" testresult="1" description="">
+            <ResultNode name="Warning" timestamp="2022-01-18 22:14:19.113" status="" testresult="1" description="UaPkiCertificate.IsValid(...) for Endpoint=opc.tcp://localhost:4840&#10;&#9;Server Certificate Subject Locality is empty. But, so is the Subject.DomainComponent and one of these must be populated.&#10;&#9;Server Certificate Subject DomainComponent is empty. But, so is the Subject.Locality. One of these must be used!&#10;Message suppressed from being displayed again.">
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.114" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/warnOnce.js" linenumber="75"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.115" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ClassBased/UaP.js" linenumber="247"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.115" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/SessionServiceSet/CreateSession.js" linenumber="186"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.116" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/SessionServiceSet/CreateSession.js" linenumber="134"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.116" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/sessionCreator.js" linenumber="56"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.116" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="46"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.120" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/RunOnce/beforeTest.js" linenumber="251"/>
+            </ResultNode>
+            <ResultNode name="Warning" timestamp="2022-01-18 22:14:19.132" status="" testresult="1" description="Session diagnostics not available; probably not supported.&#10;Message suppressed from being displayed again.">
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.132" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/warnOnce.js" linenumber="75"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.132" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/SessionServiceSet/ActivateSession.js" linenumber="156"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.133" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/SessionServiceSet/ActivateSession.js" linenumber="172"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.133" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/SessionServiceSet/ActivateSession.js" linenumber="118"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.133" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/sessionCreator.js" linenumber="70"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.133" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="46"/>
+                <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.133" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/RunOnce/beforeTest.js" linenumber="251"/>
+            </ResultNode>
+        </ResultNode>
+        <ResultNode name="Base Information" timestamp="2022-01-18 22:14:19.611" status="" testresult="0" description="Base Information. (optional)">
+            <ResultNode name="Base Info Diagnostics" timestamp="2022-01-18 22:14:19.611" status="" testresult="0" description="The Server supports Diagnostic Objects and Variables.">
+                <ResultNode name="initialize.js" timestamp="2022-01-18 22:14:19.611" status="" testresult="5" description=""/>
+                <ResultNode name="001.js" timestamp="2022-01-18 22:14:19.707" status="" testresult="5" description="Read ServerDiagnostics BrowseName"/>
+                <ResultNode name="002.js" timestamp="2022-01-18 22:14:19.712" status="" testresult="1" description="ServerDiagnosticsType defined correctly">
+                    <ResultNode name="Warning" timestamp="2022-01-18 22:14:19.723" status="" testresult="1" description="ServerDiagnostics -&gt; SamplingIntervalDiagnosticsArray ==&gt;[NOT FOUND] --- Optional">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.723" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Information/_Base/NodeContainsSubStructure.js" linenumber="186"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.724" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Information/_Base/NodeContainsSubStructure.js" linenumber="124"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.724" status="" testresult="6" functionname="testServerObject" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/002.js" linenumber="10"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.724" status="" testresult="6" functionname="testStructure" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/002.js" linenumber="57"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.724" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.724" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/002.js" linenumber="63"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="003.js" timestamp="2022-01-18 22:14:19.734" status="" testresult="0" description="Check CurrentSessionCount and CumulatedSessionCount">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:19.788" status="" testresult="0" description="CTT Session 'UaCttSession_4' not found in diagnostics summary.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.789" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.789" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/003.js" linenumber="40"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.789" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:19.789" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/003.js" linenumber="44"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="004.js" timestamp="2022-01-18 22:14:19.790" status="" testresult="5" description="Check SamplingIntervalDiagnosticsArray"/>
+                <ResultNode name="005.js" timestamp="2022-01-18 22:14:19.794" status="" testresult="0" description="Check SubscriptionDiagnosticsArray">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.061" status="" testresult="0" description="Expected a value greater than &lt;1&gt; but got &lt;1&gt;. Expected SamplingIntervalDiagnosticsArray to contain one or more entries. &#10;Expected 'HasTypeDefinition' plus actual SamplingInterval diagnostics entries.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="203"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/005.js" linenumber="28"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/005.js" linenumber="48"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.061" status="" testresult="0" description="Couldn't find SubscriptionId '4' in the SubscriptionDiagnosticsArray.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/005.js" linenumber="38"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.061" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/005.js" linenumber="48"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="006-010.js" timestamp="2022-01-18 22:14:20.067" status="" testresult="0" description="Check SubscriptionDiagnosticsArray in real time">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.078" status="BadNothingToDo (0x800f0000)" testresult="0" description="Read.Response.ResponseHeader.ServiceResult is Bad: BadNothingToDo (0x800f0000)">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.078" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ClassBased/UaR.js" linenumber="201"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.079" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/AttributeServiceSet/Read.js" linenumber="132"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.079" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/ServiceBased/AttributeServiceSet/Read.js" linenumber="67"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/006-010.js" linenumber="29"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/006-010.js" linenumber="148"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.080" status="" testresult="0" description="Subscription '5' not found in diagnostics.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/006-010.js" linenumber="42"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.080" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/006-010.js" linenumber="148"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="011.js" timestamp="2022-01-18 22:14:20.084" status="" testresult="0" description="Verify ModifyCount subscription diagnostic.">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.092" status="" testresult="0" description="Subscription '6' not found in diagnostics.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.092" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.092" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/011.js" linenumber="26"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.092" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.092" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/011.js" linenumber="62"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="012.js" timestamp="2022-01-18 22:14:20.097" status="" testresult="0" description="Check RepublishMessageCount subscription diagnostic">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.128" status="" testresult="0" description="Subscription '7' not found in diagnostics.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.128" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.129" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/012.js" linenumber="27"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.129" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.129" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/012.js" linenumber="85"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="013.js" timestamp="2022-01-18 22:14:20.132" status="" testresult="0" description="Check PublishRequestCount and DataChangeNotificationsCount subscription diagnostics">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.158" status="" testresult="0" description="Subscription '8' not found in diagnostics.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.158" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.158" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/013.js" linenumber="28"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.158" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.158" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/013.js" linenumber="83"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="014.js" timestamp="2022-01-18 22:14:20.172" status="" testresult="0" description="Check DisabledMonitoredItemCount diagnostics property">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.187" status="" testresult="0" description="Subscription '9' not found in diagnostics.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.187" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.187" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/014.js" linenumber="27"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.187" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.188" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/014.js" linenumber="66"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="015.js" timestamp="2022-01-18 22:14:20.195" status="" testresult="0" description="Check MonitoringQueueOverflowCount subscription diagnostic">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.479" status="" testresult="0" description="Subscription '10' not found in diagnostics.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.480" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="49"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.480" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/015.js" linenumber="33"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.480" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.480" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/015.js" linenumber="77"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="016.js" timestamp="2022-01-18 22:14:20.487" status="" testresult="5" description="Check Current/CumulatedSubscriptionCount"/>
+                <ResultNode name="017.js" timestamp="2022-01-18 22:14:20.498" status="" testresult="5" description="Repeat Current/CumulatedSubscriptionCount"/>
+                <ResultNode name="018-1.js" timestamp="2022-01-18 22:14:20.521" status="" testresult="3" description="Check ServerDiagnotics.EnabledFlag.">
+                    <ResultNode name="Skipped" timestamp="2022-01-18 22:14:20.537" status="" testresult="3" description="Unable to write to the EnabledFlag node. Aborting test."/>
+                </ResultNode>
+                <ResultNode name="018-2.js" timestamp="2022-01-18 22:14:20.538" status="" testresult="3" description="Verify EnabledFlag toggle doesnt increase session count">
+                    <ResultNode name="Skipped" timestamp="2022-01-18 22:14:20.545" status="" testresult="3" description="Unable to write to the EnabledFlag node. Aborting test."/>
+                </ResultNode>
+                <ResultNode name="018-3.js" timestamp="2022-01-18 22:14:20.546" status="" testresult="3" description="Static diagnostics return BadNotReadable  when EnabledFlag=false.">
+                    <ResultNode name="Skipped" timestamp="2022-01-18 22:14:20.550" status="" testresult="3" description="Unable to write to the EnabledFlag node. Aborting test."/>
+                </ResultNode>
+                <ResultNode name="019.js" timestamp="2022-01-18 22:14:20.551" status="" testresult="0" description="Test sessions are added SessionsDiagnosticsSummary">
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.593" status="" testresult="0" description="Expected the # of sessions to increment by one &#10;Expected &lt;4&gt; but got &lt;3&gt;.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.593" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="112"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.593" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="19"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.593" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.593" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="45"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.634" status="" testresult="0" description="Expected the # of sessions to increment with each new session added &#10;Expected &lt;4&gt; but got &lt;3&gt;.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.634" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="112"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.634" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="35"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.634" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.634" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="45"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.674" status="" testresult="0" description="Expected the # of sessions to increment with each new session added &#10;Expected &lt;5&gt; but got &lt;3&gt;.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.675" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="112"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.675" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="35"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.675" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.675" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="45"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.714" status="" testresult="0" description="Expected the # of sessions to increment with each new session added &#10;Expected &lt;6&gt; but got &lt;3&gt;.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.714" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="112"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.714" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="35"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.714" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.714" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="45"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.752" status="" testresult="0" description="Expected the # of sessions to increment with each new session added &#10;Expected &lt;7&gt; but got &lt;3&gt;.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.752" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="112"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.752" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="35"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.752" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.752" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="45"/>
+                    </ResultNode>
+                    <ResultNode name="Error" timestamp="2022-01-18 22:14:20.793" status="" testresult="0" description="Expected the # of sessions to increment with each new session added &#10;Expected &lt;8&gt; but got &lt;3&gt;.">
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.793" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/assertions.js" linenumber="112"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.793" status="" testresult="6" functionname="test" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="35"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.793" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/library/Base/safeInvoke.js" linenumber="103"/>
+                        <ResultNode name="Backtrace" timestamp="2022-01-18 22:14:20.793" status="" testresult="6" functionname="" filename="C:/Home/projekte/open62541/open62541-ctt2/maintree/Base Information/Base Info Diagnostics/Test Cases/019.js" linenumber="45"/>
+                    </ResultNode>
+                </ResultNode>
+                <ResultNode name="023.js" timestamp="2022-01-18 22:14:20.800" status="" testresult="5" description="Check (Security-)RejectedSessionCount"/>
+                <ResultNode name="cleanup.js" timestamp="2022-01-18 22:14:21.012" status="" testresult="5" description=""/>
+            </ResultNode>
+        </ResultNode>
+        <ResultNode name="afterTest.js" timestamp="2022-01-18 22:14:21.016" status="" testresult="4" description="">
+            <ResultNode name="Not Supported" timestamp="2022-01-18 22:14:21.124" status="" testresult="4" description="Cancel not supported."/>
+            <ResultNode name="Not Supported" timestamp="2022-01-18 22:14:21.140" status="" testresult="4" description="QueryFirst not supported."/>
+            <ResultNode name="Not Supported" timestamp="2022-01-18 22:14:21.142" status="" testresult="4" description="QueryNext not supported."/>
+            <ResultNode name="Not Supported" timestamp="2022-01-18 22:14:21.157" status="" testresult="4" description="HistoryUpdate not supported."/>
+        </ResultNode>
+    </ResultNode>
+</UaCttResults>
