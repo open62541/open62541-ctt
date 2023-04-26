@@ -16,6 +16,8 @@ The following CTT projects are tracked here:
 
 ## How to launch the Example Server
 
+Build with encryption enabled (mbedTLS or OpenSSL).
+
 `./bin/examples/server_ctt server_cert.der server_key.der --enableUnencrypted --enableAnonymous`
 
 ## Attention!
