@@ -14,6 +14,10 @@ The following CTT projects are tracked here:
 		- Basic256
 		- Basic256Sha256
 
+## How to launch the Example Server
+
+`./bin/examples/server_ctt server_cert.der server_key.der --enableUnencrypted --enableAnonymous`
+
 ## Attention!
 Only upload the open62541.ctt.xml and open62541.selection.xml files.
 The other script definitions are part of the CTT and need to be licensed from the OPC Foundation.
