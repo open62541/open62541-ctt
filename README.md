@@ -18,7 +18,7 @@ The following CTT projects are tracked here:
 
 Build with encryption enabled (mbedTLS or OpenSSL).
 
-`./bin/examples/server_ctt server_cert.der server_key.der --enableUnencrypted --enableAnonymous`
+`./bin/examples/server_ctt server_cert.der server_key.der --enableAnonymous --secureChannelTrustListFolder ./pki/ApplicationInstance_PKI/trusted/certs --secureChannelIssuerListFolder ./pki/ApplicationInstance_PKI/issuers/certs --secureChannelRevocationListFolder ./pki/ApplicationInstance_PKI/issuers/crl --sessionTrustListFolder ./pki/X509UserIdentity_PKI/trusted/certs --sessionIssuerListFolder ./pki/X509UserIdentity_PKI/issuers/certs --sessionRevocationListFolder ./pki/X509UserIdentity_PKI/issuers/crl`
 
 ## Attention!
 Only upload the open62541.ctt.xml and open62541.selection.xml files.
