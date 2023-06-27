@@ -583,39 +583,6 @@
     </TestCases>
    </ConformanceUnit>
   </ConformanceGroup>
-  <ConformanceGroup name="Node Management Services">
-   <ConformanceUnit name="Node Management Delete Ref">
-    <TestCases>
-     <TestCase name="test.js"/>
-    </TestCases>
-   </ConformanceUnit>
-   <ConformanceUnit name="Node Management Add Ref">
-    <TestCases>
-     <TestCase name="test.js"/>
-    </TestCases>
-   </ConformanceUnit>
-   <ConformanceUnit name="Node Management Delete Node">
-    <TestCases>
-     <TestCase name="Err-001.js"/>
-     <TestCase name="Err-002.js"/>
-    </TestCases>
-   </ConformanceUnit>
-   <ConformanceUnit name="Node Management Add Node">
-    <TestCases>
-     <TestCase name="001.js"/>
-     <TestCase name="002.js"/>
-     <TestCase name="003.js"/>
-     <TestCase name="Err-001.js"/>
-     <TestCase name="Err-002.js"/>
-     <TestCase name="Err-003.js"/>
-     <TestCase name="Err-004.js"/>
-     <TestCase name="Err-005.js"/>
-     <TestCase name="Err-006.js"/>
-     <TestCase name="Err-007.js"/>
-     <TestCase name="Err-008.js"/>
-    </TestCases>
-   </ConformanceUnit>
-  </ConformanceGroup>
   <ConformanceGroup name="Security">
    <ConformanceUnit name="Security None">
     <TestCases>
