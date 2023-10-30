@@ -21,7 +21,7 @@ make server_ctt
 
 4. Run the CTT server:
 ```bash
-./bin/examples/server_ctt server_cert.der server_key.der --enableAnonymous --secureChannelTrustListFolder ./pki/ApplicationInstance_PKI/trusted/certs --secureChannelIssuerListFolder ./pki/ApplicationInstance_PKI/issuers/certs --secureChannelRevocationListFolder ./pki/ApplicationInstance_PKI/issuers/crl --sessionTrustListFolder ./pki/X509UserIdentity_PKI/trusted/certs --sessionIssuerListFolder ./pki/X509UserIdentity_PKI/issuers/certs --sessionRevocationListFolder ./pki/X509UserIdentity_PKI/issuers/crl
+./bin/examples/server_ctt server_cert.der server_key.der --enableAnonymous --enableNone --enableBasic128 --enableBasic256 --secureChannelTrustListFolder ./pki/ApplicationInstance_PKI/trusted/certs --secureChannelIssuerListFolder ./pki/ApplicationInstance_PKI/issuers/certs --secureChannelRevocationListFolder ./pki/ApplicationInstance_PKI/issuers/crl --sessionTrustListFolder ./pki/X509UserIdentity_PKI/trusted/certs --sessionIssuerListFolder ./pki/X509UserIdentity_PKI/issuers/certs --sessionRevocationListFolder ./pki/X509UserIdentity_PKI/issuers/crl
 ```
 
 ## Attention!
