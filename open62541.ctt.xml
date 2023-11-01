@@ -35,7 +35,7 @@
       </Column>
       <Column column="1">
        <ItemData role="0" rolename="DisplayRole">
-        <Value typename="QString" type="10" data="opc.tcp://192.168.56.101:4841"/>
+        <Value typename="QString" type="10" data="opc.tcp://localhost:4841"/>
        </ItemData>
        <ChildRows size="0"/>
       </Column>
@@ -307,7 +307,7 @@
          </Column>
          <Column column="1">
           <ItemData role="0" rolename="DisplayRole">
-           <Value typename="QString" type="10" data="100"/>
+           <Value typename="QString" type="10" data="200"/>
           </ItemData>
           <ChildRows size="0"/>
          </Column>
